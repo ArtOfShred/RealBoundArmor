@@ -4,8 +4,6 @@ Real Bound Armor allows you to specify an outfit to equip when you toggle Bound 
 
 ## Requirements:
 Real Bound Armor requires the following libraries are downloaded:
-
-Libraries should be installed standalone like a standard addon, not embedded in the RealBoundArmor folder.
 - [LibAddonMenu][1].
 
 Thanks to Judas Helviaryn from the ESO forums for the request and suggestion responsible for this addon being developed!
