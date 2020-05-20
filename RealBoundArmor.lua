@@ -3,7 +3,7 @@
 RealBoundArmor   = {}
 RealBoundArmor.name        = "RealBoundArmor"
 RealBoundArmor.author      = "ArtOfShred"
-RealBoundArmor.version     = "2.1"
+RealBoundArmor.version     = "2.2"
 RealBoundArmor.website     = "http://www.esoui.com/downloads/info1974-RealBoundArmor.html"
 RealBoundArmor.components  = {}
 
@@ -157,8 +157,13 @@ local function RealBoundArmor_OnAddOnLoaded(eventCode, addonName)
     RealBoundArmor_LoadSavedVars()
     -- Create settings menu for our addon
     RealBoundArmor_CreateSettings()
-    -- Register global event listeners
-    RealBoundArmor_RegisterEvents()
+
+    -- Only register events if we're playing a Sorcerer
+    local class = GetUnitClassId("player") 
+    if class == 2 then
+        -- Register global event listeners
+        RealBoundArmor_RegisterEvents()
+    end
 end
 
 -- Hook initialization

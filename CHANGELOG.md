@@ -1,5 +1,6 @@
 ### Version 2.2
 
+- Updated API version for Greymoor.
 - Added a 50ms delay when EVENT_EFFECT_FADED for one of the Bound Armor morphs is detected. This double checks that Bound Armor was actually removed and not just recasted by the player correcting potential issues with the outfit swapping off when this happened.
 - Registered a handler for EVENT_PLAYER_ACTIVATED to handle swapping outfits if the player uses a Wayshrine and the buff fades during that timeframe, logs out with the ability on, etc.
 

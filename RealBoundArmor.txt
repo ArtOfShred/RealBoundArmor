@@ -1,7 +1,8 @@
 ﻿## Title: Real Bound Armor
 ## Author: ArtOfShred
-## Version: 2.1
-## APIVersion: 100029
+## Version: 2.2
+## APIVersion: 100030 100031
+## AddOnVersion: 22
 ## Description: Swaps outfits when Bound Armor (or morphs) are cast or removed.
 ## DependsOn: LibAddonMenu-2.0
 ## OptionalDependsOn: LibStub
