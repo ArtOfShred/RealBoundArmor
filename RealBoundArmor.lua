@@ -3,7 +3,7 @@
 RealBoundArmor   = {}
 RealBoundArmor.name        = "RealBoundArmor"
 RealBoundArmor.author      = "ArtOfShred"
-RealBoundArmor.version     = "2.2"
+RealBoundArmor.version     = "2.3"
 RealBoundArmor.website     = "http://www.esoui.com/downloads/info1974-RealBoundArmor.html"
 RealBoundArmor.components  = {}
 
